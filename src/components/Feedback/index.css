@@ -1,0 +1,41 @@
+/* Write your CSS code here. */
+.bg-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-bg {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  height: 500px;
+  border-radius: 30px;
+}
+.emoji-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.love-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+  height: 300px;
+  border-radius: 30px;
+  align-items: center;
+}
+.l-img {
+  height: 30px;
+  width: 30px;
+}
+.emoj-size {
+  height: 40px;
+}
